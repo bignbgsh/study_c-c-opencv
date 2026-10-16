@@ -7,4 +7,5 @@ printf 打印，有变量时需要占位符
         %c char字符型
         %schar[]字符串
         %lf双精度
+        %zu sizeof
 scanf也需要传变量输入进变量本身用&
