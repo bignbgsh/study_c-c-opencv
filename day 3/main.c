@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
         printf("等级：良好\n");
     }
     else if(score >=60){
-        printf("等级：几个\n");
+        printf("等级：及格\n");
     }
     else if(score >=0){
         printf("等级：不及格\n");
