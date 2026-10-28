@@ -1,0 +1,28 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: 生成活动文件（自动区分 C/C++）",
+            "command": "gcc.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-lstdc++"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "gcc 按扩展名自动选语言（.c 走 C，.cpp 走 C++），-lstdc++ 补上 C++ 标准库；.c 文件不会再用不了。"
+        }
+    ],
+    "version": "2.0.0"
+}
