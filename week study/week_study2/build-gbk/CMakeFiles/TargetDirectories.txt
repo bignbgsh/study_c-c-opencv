@@ -1,0 +1,3 @@
+D:/machinelearning/week study/week_study2/build-gbk/CMakeFiles/contact_book.dir
+D:/machinelearning/week study/week_study2/build-gbk/CMakeFiles/edit_cache.dir
+D:/machinelearning/week study/week_study2/build-gbk/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,11 @@
+CC = gcc
+CFLAGS = -Wall -g
+calculator: main.o math.ultis.o
+$(CC) $(CFLAGS) -o calculator main.o math.ultis.o
+main.o: main.c math.ultis.h
+$(CC) $(CFLAGS) -c main.c
+math_utils.o: math.ultis.c math.ultis.h
+$(CC) $(CFLAGS) -c math.ultis.c
+30
+clean:
+rm -f *.o calculator
