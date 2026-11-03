@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "OpenCV: Build and Run",
+            "type": "process",
+            "command": "powershell.exe",
+            "args": [
+                "-NoProfile",
+                "-Command",
+                "$ErrorActionPreference = 'Stop'; cmake -S . -B build-mingw -G 'MinGW Makefiles' '-DCMAKE_CXX_COMPILER=D:/c-translation/mingw64/bin/g++.exe' '-DCMAKE_MAKE_PROGRAM=D:/c-translation/mingw64/bin/mingw32-make.exe' '-DOpenCV_DIR=C:/msys64/ucrt64/lib/cmake/opencv5'; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; cmake --build build-mingw --parallel; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; $env:Path = 'C:\\msys64\\ucrt64\\bin;' + $env:Path; $runFile = Join-Path $env:TEMP ('opencv_scheme1-' + [guid]::NewGuid() + '.exe'); Copy-Item -LiteralPath 'build-mingw/opencv_scheme1.exe' -Destination $runFile; try { & $runFile input.png output; $runExitCode = $LASTEXITCODE } finally { Remove-Item -LiteralPath $runFile }; exit $runExitCode"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
