@@ -1,0 +1,3 @@
+D:/machinelearning/week study/week_study3/build/CMakeFiles/opencv_basic.dir
+D:/machinelearning/week study/week_study3/build/CMakeFiles/edit_cache.dir
+D:/machinelearning/week study/week_study3/build/CMakeFiles/rebuild_cache.dir

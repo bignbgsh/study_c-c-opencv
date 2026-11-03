@@ -1,0 +1,2242 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineSystem.cmake:220 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/mingw32-make.exe.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/mingw32-make.exe"
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mingw32-make.exe.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mingw32-make.exe"
+      - "D:/mingw32-make.exe.com"
+      - "D:/mingw32-make.exe"
+      - "D:/Git/cmd/mingw32-make.exe.com"
+      - "D:/Git/cmd/mingw32-make.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mingw32-make.exe"
+      - "C:/Program Files/dotnet/mingw32-make.exe.com"
+      - "C:/Program Files/dotnet/mingw32-make.exe"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe.com"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe"
+      - "D:/DSH/resources/runtime/cli/bin/mingw32-make.exe.com"
+      - "D:/DSH/resources/runtime/cli/bin/mingw32-make.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/mingw32-make.exe.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/mingw32-make.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/mingw32-make.exe.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/mingw32-make.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/mingw32-make.exe.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/mingw32-make.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/mingw32-make.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/mingw32-make.exe.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/mingw32-make.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/mingw32-make.exe"
+      - "C:/Users/bignb/.lmstudio/bin/mingw32-make.exe.com"
+      - "C:/Users/bignb/.lmstudio/bin/mingw32-make.exe"
+      - "D:/c-translation/mingw64/bin/mingw32-make.exe.com"
+    found: "D:/c-translation/mingw64/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+      - "dpclang++"
+    candidate_directories:
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/c++.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/c++.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/c++"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/g++.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/g++.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/g++"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/cl.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/cl.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/cl"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/bcc.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/bcc.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/bcc"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/icx.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/icx.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/icx"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/clang++.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/clang++.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/clang++"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/dpclang++.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/dpclang++.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/dpclang++"
+      - "C:/Windows/System32/c++.com"
+      - "C:/Windows/System32/c++.exe"
+      - "C:/Windows/System32/c++"
+      - "C:/Windows/System32/g++.com"
+      - "C:/Windows/System32/g++.exe"
+      - "C:/Windows/System32/g++"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang++.com"
+      - "C:/Windows/System32/clang++.exe"
+      - "C:/Windows/System32/clang++"
+      - "C:/Windows/System32/dpclang++.com"
+      - "C:/Windows/System32/dpclang++.exe"
+      - "C:/Windows/System32/dpclang++"
+      - "C:/Windows/c++.com"
+      - "C:/Windows/c++.exe"
+      - "C:/Windows/c++"
+      - "C:/Windows/g++.com"
+      - "C:/Windows/g++.exe"
+      - "C:/Windows/g++"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang++.com"
+      - "C:/Windows/clang++.exe"
+      - "C:/Windows/clang++"
+      - "C:/Windows/dpclang++.com"
+      - "C:/Windows/dpclang++.exe"
+      - "C:/Windows/dpclang++"
+      - "C:/Windows/System32/wbem/c++.com"
+      - "C:/Windows/System32/wbem/c++.exe"
+      - "C:/Windows/System32/wbem/c++"
+      - "C:/Windows/System32/wbem/g++.com"
+      - "C:/Windows/System32/wbem/g++.exe"
+      - "C:/Windows/System32/wbem/g++"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang++.com"
+      - "C:/Windows/System32/wbem/clang++.exe"
+      - "C:/Windows/System32/wbem/clang++"
+      - "C:/Windows/System32/wbem/dpclang++.com"
+      - "C:/Windows/System32/wbem/dpclang++.exe"
+      - "C:/Windows/System32/wbem/dpclang++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dpclang++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dpclang++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dpclang++"
+      - "C:/Windows/System32/OpenSSH/c++.com"
+      - "C:/Windows/System32/OpenSSH/c++.exe"
+      - "C:/Windows/System32/OpenSSH/c++"
+      - "C:/Windows/System32/OpenSSH/g++.com"
+      - "C:/Windows/System32/OpenSSH/g++.exe"
+      - "C:/Windows/System32/OpenSSH/g++"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang++.com"
+      - "C:/Windows/System32/OpenSSH/clang++.exe"
+      - "C:/Windows/System32/OpenSSH/clang++"
+      - "C:/Windows/System32/OpenSSH/dpclang++.com"
+      - "C:/Windows/System32/OpenSSH/dpclang++.exe"
+      - "C:/Windows/System32/OpenSSH/dpclang++"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/c++.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/c++.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/c++"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/g++.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/g++.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/g++"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/cl.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/cl.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/cl"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/bcc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/bcc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/bcc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/icx.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/icx.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/icx"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang++.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang++.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/clang++"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/dpclang++.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/dpclang++.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/dpclang++"
+      - "D:/c++.com"
+      - "D:/c++.exe"
+      - "D:/c++"
+      - "D:/g++.com"
+      - "D:/g++.exe"
+      - "D:/g++"
+      - "D:/cl.com"
+      - "D:/cl.exe"
+      - "D:/cl"
+      - "D:/bcc.com"
+      - "D:/bcc.exe"
+      - "D:/bcc"
+      - "D:/icx.com"
+      - "D:/icx.exe"
+      - "D:/icx"
+      - "D:/clang++.com"
+      - "D:/clang++.exe"
+      - "D:/clang++"
+      - "D:/dpclang++.com"
+      - "D:/dpclang++.exe"
+      - "D:/dpclang++"
+      - "D:/Git/cmd/c++.com"
+      - "D:/Git/cmd/c++.exe"
+      - "D:/Git/cmd/c++"
+      - "D:/Git/cmd/g++.com"
+      - "D:/Git/cmd/g++.exe"
+      - "D:/Git/cmd/g++"
+      - "D:/Git/cmd/cl.com"
+      - "D:/Git/cmd/cl.exe"
+      - "D:/Git/cmd/cl"
+      - "D:/Git/cmd/bcc.com"
+      - "D:/Git/cmd/bcc.exe"
+      - "D:/Git/cmd/bcc"
+      - "D:/Git/cmd/icx.com"
+      - "D:/Git/cmd/icx.exe"
+      - "D:/Git/cmd/icx"
+      - "D:/Git/cmd/clang++.com"
+      - "D:/Git/cmd/clang++.exe"
+      - "D:/Git/cmd/clang++"
+      - "D:/Git/cmd/dpclang++.com"
+      - "D:/Git/cmd/dpclang++.exe"
+      - "D:/Git/cmd/dpclang++"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/c++.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/c++.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/c++"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/g++.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/g++.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/g++"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cl"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bcc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/icx"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang++.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang++.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/clang++"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/dpclang++.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/dpclang++.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/dpclang++"
+      - "C:/Program Files/dotnet/c++.com"
+      - "C:/Program Files/dotnet/c++.exe"
+      - "C:/Program Files/dotnet/c++"
+      - "C:/Program Files/dotnet/g++.com"
+      - "C:/Program Files/dotnet/g++.exe"
+      - "C:/Program Files/dotnet/g++"
+      - "C:/Program Files/dotnet/cl.com"
+      - "C:/Program Files/dotnet/cl.exe"
+      - "C:/Program Files/dotnet/cl"
+      - "C:/Program Files/dotnet/bcc.com"
+      - "C:/Program Files/dotnet/bcc.exe"
+      - "C:/Program Files/dotnet/bcc"
+      - "C:/Program Files/dotnet/icx.com"
+      - "C:/Program Files/dotnet/icx.exe"
+      - "C:/Program Files/dotnet/icx"
+      - "C:/Program Files/dotnet/clang++.com"
+      - "C:/Program Files/dotnet/clang++.exe"
+      - "C:/Program Files/dotnet/clang++"
+      - "C:/Program Files/dotnet/dpclang++.com"
+      - "C:/Program Files/dotnet/dpclang++.exe"
+      - "C:/Program Files/dotnet/dpclang++"
+      - "C:/Program Files/CMake/bin/c++.com"
+      - "C:/Program Files/CMake/bin/c++.exe"
+      - "C:/Program Files/CMake/bin/c++"
+      - "C:/Program Files/CMake/bin/g++.com"
+      - "C:/Program Files/CMake/bin/g++.exe"
+      - "C:/Program Files/CMake/bin/g++"
+      - "C:/Program Files/CMake/bin/cl.com"
+      - "C:/Program Files/CMake/bin/cl.exe"
+      - "C:/Program Files/CMake/bin/cl"
+      - "C:/Program Files/CMake/bin/bcc.com"
+      - "C:/Program Files/CMake/bin/bcc.exe"
+      - "C:/Program Files/CMake/bin/bcc"
+      - "C:/Program Files/CMake/bin/icx.com"
+      - "C:/Program Files/CMake/bin/icx.exe"
+      - "C:/Program Files/CMake/bin/icx"
+      - "C:/Program Files/CMake/bin/clang++.com"
+      - "C:/Program Files/CMake/bin/clang++.exe"
+      - "C:/Program Files/CMake/bin/clang++"
+      - "C:/Program Files/CMake/bin/dpclang++.com"
+      - "C:/Program Files/CMake/bin/dpclang++.exe"
+      - "C:/Program Files/CMake/bin/dpclang++"
+      - "D:/DSH/resources/runtime/cli/bin/c++.com"
+      - "D:/DSH/resources/runtime/cli/bin/c++.exe"
+      - "D:/DSH/resources/runtime/cli/bin/c++"
+      - "D:/DSH/resources/runtime/cli/bin/g++.com"
+      - "D:/DSH/resources/runtime/cli/bin/g++.exe"
+      - "D:/DSH/resources/runtime/cli/bin/g++"
+      - "D:/DSH/resources/runtime/cli/bin/cl.com"
+      - "D:/DSH/resources/runtime/cli/bin/cl.exe"
+      - "D:/DSH/resources/runtime/cli/bin/cl"
+      - "D:/DSH/resources/runtime/cli/bin/bcc.com"
+      - "D:/DSH/resources/runtime/cli/bin/bcc.exe"
+      - "D:/DSH/resources/runtime/cli/bin/bcc"
+      - "D:/DSH/resources/runtime/cli/bin/icx.com"
+      - "D:/DSH/resources/runtime/cli/bin/icx.exe"
+      - "D:/DSH/resources/runtime/cli/bin/icx"
+      - "D:/DSH/resources/runtime/cli/bin/clang++.com"
+      - "D:/DSH/resources/runtime/cli/bin/clang++.exe"
+      - "D:/DSH/resources/runtime/cli/bin/clang++"
+      - "D:/DSH/resources/runtime/cli/bin/dpclang++.com"
+      - "D:/DSH/resources/runtime/cli/bin/dpclang++.exe"
+      - "D:/DSH/resources/runtime/cli/bin/dpclang++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/c++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/c++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/c++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/g++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/g++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/g++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/cl.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/cl.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/cl"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/bcc.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/bcc.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/bcc"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/icx.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/icx.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/icx"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/clang++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/clang++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/clang++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/dpclang++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/dpclang++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/dpclang++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/c++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/c++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/c++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/g++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/g++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/g++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/cl.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/cl.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/cl"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/bcc.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/bcc.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/bcc"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/icx.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/icx.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/icx"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/clang++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/clang++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/clang++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/dpclang++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/dpclang++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/dpclang++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/c++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/c++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/c++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/g++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/g++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/g++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/cl.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/cl.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/cl"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/bcc.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/bcc.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/bcc"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/icx.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/icx.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/icx"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/clang++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/clang++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/clang++"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/dpclang++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/dpclang++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/dpclang++"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/c++.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/c++.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/c++"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/g++.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/g++.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/g++"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/bcc.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/bcc.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/bcc"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/icx.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/icx.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/icx"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/clang++.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/clang++.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/clang++"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/dpclang++.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/dpclang++.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/dpclang++"
+      - "C:/Users/bignb/AppData/Roaming/npm/c++.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/c++.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/c++"
+      - "C:/Users/bignb/AppData/Roaming/npm/g++.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/g++.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/g++"
+      - "C:/Users/bignb/AppData/Roaming/npm/cl.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/cl.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/cl"
+      - "C:/Users/bignb/AppData/Roaming/npm/bcc.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/bcc.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/bcc"
+      - "C:/Users/bignb/AppData/Roaming/npm/icx.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/icx.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/icx"
+      - "C:/Users/bignb/AppData/Roaming/npm/clang++.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/clang++.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/clang++"
+      - "C:/Users/bignb/AppData/Roaming/npm/dpclang++.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/dpclang++.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/dpclang++"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/c++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/c++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/c++"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/g++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/g++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/g++"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/cl.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/cl"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/bcc.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/bcc.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/bcc"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/icx.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/icx.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/icx"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/clang++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/clang++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/clang++"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/dpclang++.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/dpclang++.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/dpclang++"
+      - "C:/Users/bignb/.lmstudio/bin/c++.com"
+      - "C:/Users/bignb/.lmstudio/bin/c++.exe"
+      - "C:/Users/bignb/.lmstudio/bin/c++"
+      - "C:/Users/bignb/.lmstudio/bin/g++.com"
+      - "C:/Users/bignb/.lmstudio/bin/g++.exe"
+      - "C:/Users/bignb/.lmstudio/bin/g++"
+      - "C:/Users/bignb/.lmstudio/bin/cl.com"
+      - "C:/Users/bignb/.lmstudio/bin/cl.exe"
+      - "C:/Users/bignb/.lmstudio/bin/cl"
+      - "C:/Users/bignb/.lmstudio/bin/bcc.com"
+      - "C:/Users/bignb/.lmstudio/bin/bcc.exe"
+      - "C:/Users/bignb/.lmstudio/bin/bcc"
+      - "C:/Users/bignb/.lmstudio/bin/icx.com"
+      - "C:/Users/bignb/.lmstudio/bin/icx.exe"
+      - "C:/Users/bignb/.lmstudio/bin/icx"
+      - "C:/Users/bignb/.lmstudio/bin/clang++.com"
+      - "C:/Users/bignb/.lmstudio/bin/clang++.exe"
+      - "C:/Users/bignb/.lmstudio/bin/clang++"
+      - "C:/Users/bignb/.lmstudio/bin/dpclang++.com"
+      - "C:/Users/bignb/.lmstudio/bin/dpclang++.exe"
+      - "C:/Users/bignb/.lmstudio/bin/dpclang++"
+      - "D:/c-translation/mingw64/bin/c++.com"
+    found: "D:/c-translation/mingw64/bin/c++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/c-translation/mingw64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/machinelearning/week study/week_study3/build/CMakeFiles/4.5.0-rc2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/ar.com"
+    found: "D:/c-translation/mingw64/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/ranlib.com"
+    found: "D:/c-translation/mingw64/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/strip.com"
+    found: "D:/c-translation/mingw64/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/ld.com"
+    found: "D:/c-translation/mingw64/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/nm.com"
+    found: "D:/c-translation/mingw64/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/objdump.com"
+    found: "D:/c-translation/mingw64/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/objcopy.com"
+    found: "D:/c-translation/mingw64/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/readelf.com"
+    found: "D:/c-translation/mingw64/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/dlltool.com"
+    found: "D:/c-translation/mingw64/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/addr2line.com"
+    found: "D:/c-translation/mingw64/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeFindBinUtils.cmake:249 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/tapi.com"
+      - "D:/c-translation/mingw64/bin/tapi.exe"
+      - "D:/c-translation/mingw64/bin/tapi"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/tapi.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/tapi.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/tapi"
+      - "D:/tapi.com"
+      - "D:/tapi.exe"
+      - "D:/tapi"
+      - "D:/Git/cmd/tapi.com"
+      - "D:/Git/cmd/tapi.exe"
+      - "D:/Git/cmd/tapi"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "D:/DSH/resources/runtime/cli/bin/tapi.com"
+      - "D:/DSH/resources/runtime/cli/bin/tapi.exe"
+      - "D:/DSH/resources/runtime/cli/bin/tapi"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/tapi.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/tapi.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/tapi"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/tapi.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/tapi.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/tapi"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/tapi.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/tapi.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/tapi"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/bignb/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/tapi"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/bignb/.lmstudio/bin/tapi.com"
+      - "C:/Users/bignb/.lmstudio/bin/tapi.exe"
+      - "C:/Users/bignb/.lmstudio/bin/tapi"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/tapi"
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:208 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.2"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/gcc-ar-16.2.com"
+      - "D:/c-translation/mingw64/bin/gcc-ar-16.2.exe"
+      - "D:/c-translation/mingw64/bin/gcc-ar-16.2"
+      - "D:/c-translation/mingw64/bin/gcc-ar-16.com"
+      - "D:/c-translation/mingw64/bin/gcc-ar-16.exe"
+      - "D:/c-translation/mingw64/bin/gcc-ar-16"
+      - "D:/c-translation/mingw64/bin/gcc-ar16.com"
+      - "D:/c-translation/mingw64/bin/gcc-ar16.exe"
+      - "D:/c-translation/mingw64/bin/gcc-ar16"
+      - "D:/c-translation/mingw64/bin/gcc-ar.com"
+    found: "D:/c-translation/mingw64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Compiler/GNU-FindBinUtils.cmake:33 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:208 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.2"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+    searched_directories:
+      - "D:/c-translation/mingw64/bin/gcc-ranlib-16.2.com"
+      - "D:/c-translation/mingw64/bin/gcc-ranlib-16.2.exe"
+      - "D:/c-translation/mingw64/bin/gcc-ranlib-16.2"
+      - "D:/c-translation/mingw64/bin/gcc-ranlib-16.com"
+      - "D:/c-translation/mingw64/bin/gcc-ranlib-16.exe"
+      - "D:/c-translation/mingw64/bin/gcc-ranlib-16"
+      - "D:/c-translation/mingw64/bin/gcc-ranlib16.com"
+      - "D:/c-translation/mingw64/bin/gcc-ranlib16.exe"
+      - "D:/c-translation/mingw64/bin/gcc-ranlib16"
+      - "D:/c-translation/mingw64/bin/gcc-ranlib.com"
+    found: "D:/c-translation/mingw64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "D:/"
+      - "D:/Git/cmd/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
+      - "D:/DSH/resources/runtime/cli/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/bignb/AppData/Roaming/npm/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/bignb/.lmstudio/bin/"
+      - "D:/c-translation/mingw64/bin/"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/bignb/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/OpenCVBasic/bin/"
+      - "C:/Program Files (x86)/OpenCVBasic/sbin/"
+      - "C:/Program Files (x86)/OpenCVBasic/"
+    searched_directories:
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/windres.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/windres.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/Microsoft.PowerShell_8wekyb3d8bbwe/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/windres.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/windres.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/windres"
+      - "D:/windres.com"
+      - "D:/windres.exe"
+      - "D:/windres"
+      - "D:/Git/cmd/windres.com"
+      - "D:/Git/cmd/windres.exe"
+      - "D:/Git/cmd/windres"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/windres"
+      - "C:/Program Files/dotnet/windres.com"
+      - "C:/Program Files/dotnet/windres.exe"
+      - "C:/Program Files/dotnet/windres"
+      - "C:/Program Files/CMake/bin/windres.com"
+      - "C:/Program Files/CMake/bin/windres.exe"
+      - "C:/Program Files/CMake/bin/windres"
+      - "D:/DSH/resources/runtime/cli/bin/windres.com"
+      - "D:/DSH/resources/runtime/cli/bin/windres.exe"
+      - "D:/DSH/resources/runtime/cli/bin/windres"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/windres.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/windres.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/Scripts/windres"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/windres.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/windres.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Python313/windres"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/windres.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/windres.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Python/Launcher/windres"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/windres.com"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/windres.exe"
+      - "C:/Users/bignb/AppData/Local/Microsoft/WindowsApps/windres"
+      - "C:/Users/bignb/AppData/Roaming/npm/windres.com"
+      - "C:/Users/bignb/AppData/Roaming/npm/windres.exe"
+      - "C:/Users/bignb/AppData/Roaming/npm/windres"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/windres.com"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/windres.exe"
+      - "C:/Users/bignb/AppData/Local/Programs/Microsoft VS Code/bin/windres"
+      - "C:/Users/bignb/.lmstudio/bin/windres.com"
+      - "C:/Users/bignb/.lmstudio/bin/windres.exe"
+      - "C:/Users/bignb/.lmstudio/bin/windres"
+      - "D:/c-translation/mingw64/bin/windres.com"
+    found: "D:/c-translation/mingw64/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "D:\\"
+        - "D:\\Git\\cmd"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "D:\\DSH\\resources\\runtime\\cli\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\bignb\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\bignb\\AppData\\Roaming\\npm"
+        - "C:\\Users\\bignb\\.lmstudio\\bin"
+        - "D:\\c-translation\\mingw64\\bin"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "c:\\Users\\bignb\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Users\\bignb\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OpenCVBasic"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/OpenCVBasic"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/machinelearning/week study/week_study3/build/CMakeFiles/CMakeScratch/TryCompile-qrnt4n"
+      binary: "D:/machinelearning/week study/week_study3/build/CMakeFiles/CMakeScratch/TryCompile-qrnt4n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'D:/machinelearning/week study/week_study3/build/CMakeFiles/CMakeScratch/TryCompile-qrnt4n'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/c-translation/mingw64/bin/mingw32-make.exe -f Makefile cmTC_43b8a/fast
+        D:/c-translation/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_43b8a.dir\\build.make CMakeFiles/cmTC_43b8a.dir/build
+        mingw32-make[1]: Entering directory 'D:/machinelearning/week study/week_study3/build/CMakeFiles/CMakeScratch/TryCompile-qrnt4n'
+        Building CXX object CMakeFiles/cmTC_43b8a.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\c-translation\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.5\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=D:\\c-translation\\mingw64\\bin\\c++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-16.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-tls --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_43b8a.dir\\'
+         D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/cc1plus.exe -quiet -v -iprefix D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.5\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_43b8a.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\bignb\\AppData\\Local\\Temp\\ccDXO7TY.s
+        GNU C++20 (x86_64-win32-seh-rev1, Built by MinGW-Builds project) version 16.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 16.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++"
+        ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/backward"
+        ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include"
+        ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed"
+        ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++
+         D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32
+         D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/backward
+         D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include
+         D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed
+         D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 0941e6bf12ed62e51051544b8ca8077b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_43b8a.dir\\'
+         D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\bignb\\AppData\\Local\\Temp\\ccDXO7TY.s
+        GNU assembler version 2.47 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.47.20260726
+        COMPILER_PATH=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/;D:/c-translation/mingw64/bin/../libexec/gcc/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;D:/c-translation/mingw64/bin/../lib/gcc/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_43b8a.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_43b8a.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\c-translation\\mingw64\\bin\\c++.exe
+        COLLECT_LTO_WRAPPER=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../../../src/gcc-16.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-tls --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (x86_64-win32-seh-rev1, Built by MinGW-Builds project) 
+        COMPILER_PATH=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/;D:/c-translation/mingw64/bin/../libexec/gcc/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/;D:/c-translation/mingw64/bin/../lib/gcc/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/;D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43b8a.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_43b8a.'
+         D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/collect2.exe -plugin D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\bignb\\AppData\\Local\\Temp\\ccF6ESJ8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_43b8a.exe D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/c-translation/mingw64/bin/../lib/gcc -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_43b8a.dir/objects.a --no-whole-archive --out-implib libcmTC_43b8a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o
+        collect2 version 16.2.0
+        D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\bignb\\AppData\\Local\\Temp\\ccF6ESJ8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_43b8a.exe D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/c-translation/mingw64/bin/../lib/gcc -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_43b8a.dir/objects.a --no-whole-archive --out-implib libcmTC_43b8a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.47.20260726
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43b8a.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_43b8a.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_43b8a.dir/objects.a
+        D:\\c-translation\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_43b8a.dir/objects.a @CMakeFiles\\cmTC_43b8a.dir\\objects1.rsp
+        D:\\c-translation\\mingw64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_43b8a.dir/objects.a -Wl,--no-whole-archive -o cmTC_43b8a.exe -Wl,--out-implib,libcmTC_43b8a.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'D:/machinelearning/week study/week_study3/build/CMakeFiles/CMakeScratch/TryCompile-qrnt4n'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++]
+          add: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32]
+          add: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/backward]
+          add: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include]
+          add: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed]
+          add: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++] ==> [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++]
+        collapse include dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32] ==> [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/backward] ==> [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/backward]
+        collapse include dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include] ==> [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include]
+        collapse include dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed] ==> [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed]
+        collapse include dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/c-translation/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++;D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32;D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/backward;D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include;D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed;D:/c-translation/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)(\\.exe)?"?( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: 'D:/machinelearning/week study/week_study3/build/CMakeFiles/CMakeScratch/TryCompile-qrnt4n']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/c-translation/mingw64/bin/mingw32-make.exe -f Makefile cmTC_43b8a/fast]
+        ignore line: [D:/c-translation/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_43b8a.dir\\build.make CMakeFiles/cmTC_43b8a.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'D:/machinelearning/week study/week_study3/build/CMakeFiles/CMakeScratch/TryCompile-qrnt4n']
+        ignore line: [Building CXX object CMakeFiles/cmTC_43b8a.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\c-translation\\mingw64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.5\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\c-translation\\mingw64\\bin\\c++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-16.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-tls --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (x86_64-win32-seh-rev1  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_43b8a.dir\\']
+        ignore line: [ D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/cc1plus.exe -quiet -v -iprefix D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/ -U_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.5\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_43b8a.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\bignb\\AppData\\Local\\Temp\\ccDXO7TY.s]
+        ignore line: [GNU C++20 (x86_64-win32-seh-rev1  Built by MinGW-Builds project) version 16.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64D:/a/_temp/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/c-translation/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++]
+        ignore line: [ D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include/c++/backward]
+        ignore line: [ D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include]
+        ignore line: [ D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed]
+        ignore line: [ D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 0941e6bf12ed62e51051544b8ca8077b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_43b8a.dir\\']
+        ignore line: [ D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\bignb\\AppData\\Local\\Temp\\ccDXO7TY.s]
+        ignore line: [GNU assembler version 2.47 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.47.20260726]
+        ignore line: [COMPILER_PATH=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/]
+        ignore line: [D:/c-translation/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_43b8a.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_43b8a.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_43b8a.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\c-translation\\mingw64\\bin\\c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-16.2.0/configure --host=x86_64-w64-mingw32 --build=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --prefix=/mingw64 --with-sysroot=/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=win32 --enable-libstdcxx-threads=yes --enable-tls --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=nocona --with-tune=core2 --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/x86_64-w64-mingw32-static --with-pkgversion='x86_64-win32-seh-rev1, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64/opt/lib -L/c/buildroot/prerequisites/x86_64-zlib-static/lib -L/c/buildroot/prerequisites/x86_64-w64-mingw32-static/lib  -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (x86_64-win32-seh-rev1  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/]
+        ignore line: [D:/c-translation/mingw64/bin/../libexec/gcc/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43b8a.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_43b8a.']
+        link line: [ D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/collect2.exe -plugin D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\bignb\\AppData\\Local\\Temp\\ccF6ESJ8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_43b8a.exe D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/c-translation/mingw64/bin/../lib/gcc -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_43b8a.dir/objects.a --no-whole-archive --out-implib libcmTC_43b8a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o]
+          arg [D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore, skip following value
+          arg [D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll] ==> skip value of -plugin
+          arg [-plugin-opt=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\bignb\\AppData\\Local\\Temp\\ccF6ESJ8.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore, skip following value
+          arg [cmTC_43b8a.exe] ==> skip value of -o
+          arg [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o] ==> obj [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o]
+          arg [-LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0] ==> dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0]
+          arg [-LD:/c-translation/mingw64/bin/../lib/gcc] ==> dir [D:/c-translation/mingw64/bin/../lib/gcc]
+          arg [-LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib] ==> dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib]
+          arg [-LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../..] ==> dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_43b8a.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_43b8a.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o] ==> obj [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o]
+        ignore line: [collect2 version 16.2.0]
+        link line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\bignb\\AppData\\Local\\Temp\\ccF6ESJ8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_43b8a.exe D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/c-translation/mingw64/bin/../lib/gcc -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_43b8a.dir/objects.a --no-whole-archive --out-implib libcmTC_43b8a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o] ==> linker [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe]
+        link line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\bignb\\AppData\\Local\\Temp\\ccF6ESJ8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_43b8a.exe D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/c-translation/mingw64/bin/../lib/gcc -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_43b8a.dir/objects.a --no-whole-archive --out-implib libcmTC_43b8a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o] ==> linker architecture flags [-m;i386pep]
+        ignore line: [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/liblto_plugin.dll -plugin-opt=D:/c-translation/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/16.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\bignb\\AppData\\Local\\Temp\\ccF6ESJ8.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1620-win32-seh-ucrt-rt_v14-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_43b8a.exe D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0 -LD:/c-translation/mingw64/bin/../lib/gcc -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib -LD:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_43b8a.dir/objects.a --no-whole-archive --out-implib libcmTC_43b8a.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o]
+        linker tool for 'CXX': D:/c-translation/mingw64/x86_64-w64-mingw32/bin/ld.exe -m;i386pep
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/c-translation/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o] ==> [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o]
+        collapse obj [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o] ==> [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o]
+        collapse library dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0] ==> [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0]
+        collapse library dir [D:/c-translation/mingw64/bin/../lib/gcc] ==> [D:/c-translation/mingw64/lib/gcc]
+        collapse library dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/c-translation/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../lib] ==> [D:/c-translation/mingw64/lib]
+        collapse library dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/c-translation/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [D:/c-translation/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/16.2.0/../../..] ==> [D:/c-translation/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;mingwex;kernel32]
+        implicit objs: [D:/c-translation/mingw64/x86_64-w64-mingw32/lib/crt2.o;D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/crtbegin.o;D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/crtend.o]
+        implicit dirs: [D:/c-translation/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0;D:/c-translation/mingw64/lib/gcc;D:/c-translation/mingw64/x86_64-w64-mingw32/lib;D:/c-translation/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/c-translation/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.47.20260726
+...
