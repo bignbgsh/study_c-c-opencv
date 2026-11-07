@@ -1,5 +1,5 @@
 *.exe
 .vscode
 build
-build-urt
+build-ucrt
 build-mingw
